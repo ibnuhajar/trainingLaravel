@@ -22,7 +22,7 @@ Route::get('/hallo', function () {
     return view('hallo');
 });
 
-Route::get('users/{user}',[Users::class,'index']);
+Route::get('users/',[Users::class,'index']);
 
 
 
